@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+#foot{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+p{
+    font-size: 15px;
+}
+#sobre {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 0 auto;
+    width: 0 auto;
+    border: solid;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+#imagem{
+     animation: roda 60s alternate infinite;
+     position: absolute;
+
+}
+h1{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#txt{
+    text-align: center;
+    margin-left: 250px;
+    position: relative;
+}
+
+
+@keyframes roda {
+    to { transform: rotate(360deg);}
+}
+@media(max-width:600px){
+}
+    
+   
