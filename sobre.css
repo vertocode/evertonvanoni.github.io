@@ -1,11 +1,14 @@
+@charset "UTF-8";
+
 body{
-    background-color: black;
     font-family: monospace;
     font-size: 18px;
-    
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)80%);
+    background-attachment: fixed;
 }
 #foot{
     background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
 }
 p{
     font-size: 15px;
@@ -20,9 +23,8 @@ p{
     background-color: rgba(255, 255, 255, 0.75);
 }
 #imagem{
-     animation: roda 60s alternate infinite;
      position: absolute;
-
+     margin: auto;
 }
 h1{
     text-decoration: underline;
@@ -33,22 +35,24 @@ h1{
     margin-left: 250px;
     position: relative;
 }
-
-
-@keyframes roda {
-    to { transform: rotate(360deg);}
+#frase{
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
 }
+
+
 @media(max-width:600px){
     #imagem{
      animation: roda 60s alternate infinite;
      position: relative;
      width: 200px;
-     margin-left: 80px;
+     margin: auto;
     
 }
 #txt{
     display: contents;
 }
 }
+    
     
    

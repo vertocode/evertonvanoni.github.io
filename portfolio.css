@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)80%);
+    background-attachment: fixed;
+}
+
+   
+#sec{
+    margin:auto;
+    background-color:rgba(255, 255, 255, 0.226);
+    position: relative;
+    margin-top: 15%;
+}
+   #pri{ 
+    width: 410px;
+    text-align: center;
+    margin: auto;
+    color:rgba(52, 179, 252, 0.726);
+    font-size: 3em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow:hidden;
+
+  
+   }
+    #seg{
+        width: 130px;
+        text-align: center;
+        color:rgba(22, 48, 63, 0.726);
+        border-right: solid 2px rgba(255, 255, 255, 0.7);
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow:hidden;
+        animation: typing2 3s steps(40) normal infinite, blinkCursor 750ms steps(40) infinite
+        normal;
+       
+    }
+
+
+  @keyframes typing2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 8em;
+    }
+  }
+ 
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
