@@ -49,3 +49,11 @@ footer{
       border-right-color: transparent;
     }
   }
+@media(max-width:600px){
+  #line{
+    font-size: 25px;
+  }
+  footer{
+   font-size: 20px
+  }
+}
