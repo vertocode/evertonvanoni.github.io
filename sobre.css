@@ -39,6 +39,16 @@ h1{
     to { transform: rotate(360deg);}
 }
 @media(max-width:600px){
+    #imagem{
+     animation: roda 60s alternate infinite;
+     position: relative;
+     width: 200px;
+     margin-left: 80px;
+    
+}
+#txt{
+    display: contents;
+}
 }
     
    
