@@ -50,8 +50,16 @@ main{
     border-bottom: solid 3px;
 }
 #links{
-    position: initial;
+    position: relative;
     padding: 2em;
+}
+
+#links a:hover:after{
+    content: attr(description);
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    
 }
 @keyframes roda {
     to { transform: rotate(360deg);}
