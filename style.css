@@ -1,10 +1,19 @@
 @charset "UTF-8";
-
+@font-face {
+  font-family: "Android";
+  src: url("documentos/IDroid\ Bold\ Italic.otf") format("opentype");
+  font-weight: normal;
+}
+:root{
+  --font-android:"Android";
+}
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
+
 
 #home{
     display: flex;
@@ -18,12 +27,12 @@ footer{
     border-top: 1px solid;
     background-color: rgba(255, 255, 255, 0.7);;
     text-align: center;
-    font-family: monospace;
+    font-family: var(--font-android);
     font-size: 2em;
 }
 #line{
     border-right: solid 2px rgba(255, 255, 255, 0.7);
-    color:rgba(52, 179, 252, 0.726);
+    color:rgba(252, 252, 252, 0.726);
     font-family: monospace;
     font-size: 3em;
     margin: 0 auto;

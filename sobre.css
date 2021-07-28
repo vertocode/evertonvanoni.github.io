@@ -2,17 +2,17 @@
 
 body{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 1em;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)80%);
     background-attachment: fixed;
 }
 #foot{
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.582);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
 p{
-    font-size: 15px;
+    font-size: 1em;
 }
 #sobre {
     padding: 0;
@@ -22,7 +22,7 @@ p{
     width: 0 auto;
     border: solid;
     background-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.582);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
 #imagem{
      position: absolute;
@@ -32,17 +32,18 @@ p{
 }
 h1{
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 1.25em;
 }
 #txt{
     text-align: center;
     margin-left: 250px;
     position: relative;
+    
 }
 #frase{
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.582);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
 
 

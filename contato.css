@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 #github:hover,#linkedin:hover,#gmail:hover,#instagram:hover,#facebook:hover,#twitter:hover,#youtube:hover,#twitch:hover{
-    background-color:rgba(52, 179, 252, 0.726);
+    background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255));
     box-shadow: 10px 10px 10px black;
 }
 

@@ -17,13 +17,16 @@ a {
 }
 
 a:hover {
-  background-color: rgba(52, 179, 252, 0.726);
+  background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255));
   color: black;
 }
 
 #logo {
   font-size: 1.5rem;
   font-weight: bold;
+}
+#logo:hover{
+  background-image: linear-gradient(to right, rgb(0, 0, 0), black);
 }
 
 #header {
@@ -33,9 +36,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #000000;
-  border-bottom: solid 1px;
-  border-color: rgba(255, 255, 255, 0.425);
+  background-image: linear-gradient(to top, black, rgb(94, 94, 94));
+
 }
 
 #menu {
@@ -47,6 +49,7 @@ a:hover {
 #menu a {
   display: block;
   padding: 0.5rem;
+  transition-duration: 0.5s;
 }
 
 #btn-mobile {
