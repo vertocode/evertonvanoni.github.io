@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)80%);
+    background-color: black;
     background-attachment: fixed;
 }
 #github:hover,#linkedin:hover,#gmail:hover,#instagram:hover,#facebook:hover,#twitter:hover,#youtube:hover,#twitch:hover{
     background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255));
     box-shadow: 10px 10px 10px black;
+    width: 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
 }
 
 
@@ -26,7 +30,8 @@ main{
     animation: typing 2s normal;
     white-space: nowrap;
     overflow:hidden;
-    padding: 2em;
+    padding: 1em 2em;
+    
 }
 #imagem {
     position: initial;
@@ -56,9 +61,10 @@ main{
 #links a:hover:after{
     content: attr(description);
     position: absolute;
+    font-size: 1.2em;
     left: 40%;
     bottom: 0;
-    
+    color: black;
 }
 @keyframes roda {
     to { transform: rotate(360deg);}
@@ -71,4 +77,21 @@ main{
       width: 21em;
     }
   }
+@media(max-width:400px){
+    main{
+        width: 250px;
+    }
+    main h1 {
+        font-size: 1.3em;
+    }
+    main h2{
+        font-size: 0.9em;
+    }
+    #links{
+        padding: 2px 0px;
+    }
+    #links img{
+        max-width: 40px;
+    }
 
+}

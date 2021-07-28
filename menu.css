@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{
   font-family: 'Courier New', Courier, monospace;
-
+  
 }
 body,
 ul {
@@ -16,9 +16,10 @@ a {
   font-size: 15px;
 }
 
-a:hover {
+header a:hover {
   background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255));
   color: black;
+  font-size: 18px;
 }
 
 #logo {
@@ -36,8 +37,10 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(to top, black, rgb(94, 94, 94));
-
+  background-image: linear-gradient(to top, black 75%, transparent);
+  border-bottom: solid ;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.692);
 }
 
 #menu {
