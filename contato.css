@@ -92,6 +92,9 @@ main{
     }
     #links img{
         max-width: 40px;
+    } 
+    #links a:hover:after{
+        content:none;
     }
 
 }
