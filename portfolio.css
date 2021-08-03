@@ -33,7 +33,16 @@ body{
         overflow:hidden;
         animation: typing2 3s steps(40) normal infinite, blinkCursor 750ms steps(40) infinite
         normal;
-       
+    }
+    #repo{
+      text-align: center;
+        color: white;
+    }
+    #repo :hover{
+      background-image: linear-gradient(to right, rgb(0, 0, 0), black);
+      color: white;
+      border: solid;
+      border-color: rgb(247, 230, 247);
     }
 
 
