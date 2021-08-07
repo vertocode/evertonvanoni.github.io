@@ -21,7 +21,7 @@ main{
     background-color: rgba(255, 255, 255, 0.493);
     color: #000000;
     margin: auto;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.61);
+    box-shadow: 1px 1px 5px #0000008a;
     width: 330px;
     margin-top: 40px;
     border: solid;
