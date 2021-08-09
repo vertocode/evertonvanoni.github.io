@@ -53,11 +53,28 @@ body{
     .itens
     {
       color: white;
+      text-align: center;
+    }
+    .itens h2
+    {
+      text-decoration: underline;
     }
     #urna
     {
       text-align: center;
       border: 1px solid white;
+      margin: 25px;
+    }
+    #conversor
+    {
+      border: 1px solid white;
+      margin: 25px;
+    }
+    #conversor img
+    {
+      width: 45%;
+      height: 90%;
+      margin: 5px;
     }
     .imagens
     {
