@@ -39,10 +39,7 @@ main{
     height: 171px;
     text-align: center;
     align-items: center;
-    box-shadow:
-    5px 5px 15px 0px rgba(0, 0, 0, 0.993),
-    5px 5px 200px 0px rgb(0, 0, 0),
-    inset 0px 0px 10px 0px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
     border-radius: 100%;
     margin: 0 auto;
     animation: roda 180s linear infinite;
