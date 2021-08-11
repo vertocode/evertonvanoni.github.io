@@ -11,6 +11,11 @@ body{
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
+#foot img 
+{
+    width: 60px;
+    height: 60px;
+}
 p{
     font-size: 1em;
 }
