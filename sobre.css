@@ -79,23 +79,28 @@ h2{
 
 
 
-@media(max-width:600px){
-    #imagem{
-     animation: roda 60s alternate infinite;
-     position: relative;
-     width: 200px;
-     margin: auto;
-    
-}
-#txt{
-    display: contents;
-    align-items: center;
-    justify-content: center;
-}
-#certificate
+@media(max-width:600px)
 {
-    display: contents;
-}
+    #imagem
+    {
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    #imagem img 
+    {
+        margin-left: 20vw;
+    }
+    #txt
+    {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    #certificate
+    {
+        display: contents;
+    }
 }
     
     
