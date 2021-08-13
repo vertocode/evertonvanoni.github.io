@@ -47,7 +47,7 @@ h2
 .slider--width
 {
   width: calc(100vw * 4);
-  height: 100vh;
+  height: 80vh;
   display: flex;
   transition: all ease 0.4s;
   scroll-behavior: initial;
