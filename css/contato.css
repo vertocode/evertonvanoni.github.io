@@ -76,7 +76,7 @@ body
     }
   }
 
-@media(max-width:601px){
+@media(max-width:600px){
     #all
     {
         padding-top: 90px;
