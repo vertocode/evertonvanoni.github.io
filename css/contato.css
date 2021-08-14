@@ -83,11 +83,6 @@ body
     }
 }
 @media(max-width:400px){
-    #all{
-        max-width: 200px;
-        max-height: 400px;
-        padding: 0;
-    }
     #all h1 {
         font-size: 1.3em;
     }
