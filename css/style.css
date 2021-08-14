@@ -23,8 +23,8 @@ body{
     justify-content: center;
     height: calc(100vh - 36.36px);
     background-image: url(../imagens/background.jpg);
-    background-attachment: fixed;
-    color: white;
+    background-repeat:unset;
+    color: blue;
 }
 #line{
     border-right: solid 2px rgb(255, 255, 255);

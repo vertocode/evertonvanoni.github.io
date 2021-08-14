@@ -40,6 +40,7 @@ header img
   justify-content: baseline;
   background-color: black;
   overflow: hidden;
+  box-shadow: 1px 1px 5px white;
 }
 
 #menu {
