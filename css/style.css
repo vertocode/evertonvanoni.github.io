@@ -13,35 +13,37 @@
     box-sizing: border-box;
 }
 body{
-  background-color: black;
+  overflow: hidden;
 }
 
-
 #home{
+    padding-left: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 110px);
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)80%);
+    height: calc(100vh - 36.36px);
+    background-image: url(../imagens/background.jpg);
     background-attachment: fixed;
-}
-footer{
-    border-top: 1px solid;
-    background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255) 80%);
-    text-align: center;
-    font-family: var(--font-android);
-    font-size: 2em;
+    color: white;
 }
 #line{
-    border-right: solid 2px rgba(255, 255, 255, 0.7);
-    color:rgba(252, 252, 252, 0.726);
+    border-right: solid 2px rgb(255, 255, 255);
     font-family: monospace;
     font-size: 3em;
     margin: 0 auto;
     white-space: nowrap;
     overflow:hidden;
 }
-
+footer
+{
+  width: 100%;
+  padding-left: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: var(--font-android);
+  font-size: 2em;
+}
 .typing-animation {
     animation: blinkCursor 750ms steps(40) infinite
     normal, 
@@ -65,12 +67,39 @@ footer{
       border-right-color: transparent;
     }
   }
-  @media(max-width:600px){
+  @media(max-width:680px){
 
     #line{
       font-size: 25px;
     }
     footer{
      font-size: 20px
+    }
+  }
+  @media(max-width:485px){
+    #home
+    {
+      padding-left: 120px;
+    }
+    #line{
+      font-size: 23px;
+    }
+    footer{
+     padding-left: 120px;
+     font-size: 18px
+    }
+  }
+  @media(max-width:400px){
+
+    #home
+    {
+      padding-left: 120px;
+    }
+    #line{
+      font-size: 15px;
+    }
+    footer{
+     padding-left: 120px;
+     font-size: 15px
     }
   }

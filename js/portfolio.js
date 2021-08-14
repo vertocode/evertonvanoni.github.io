@@ -104,7 +104,7 @@ function updateMargin4()
 }
 
 //Intervalos para avançar automaticamente.
-setInterval(gonext, 4000)
-setInterval(gonext2, 4000)
-setInterval(gonext3, 4000)
-setInterval(gonext4, 4000)
+setInterval(gonext, 3000)
+setInterval(gonext2, 3000)
+setInterval(gonext3, 3000)
+setInterval(gonext4, 3000)

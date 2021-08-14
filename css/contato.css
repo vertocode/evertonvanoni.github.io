@@ -3,26 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
-    background-attachment: fixed;
+html
+{
+  margin-top:-39.6px;
+  background-image: url(../imagens/background.jpg);
 }
+
 #github:hover,#linkedin:hover,#gmail:hover,#instagram:hover,#facebook:hover,#twitter:hover,#youtube:hover,#twitch:hover{
-    background-image: linear-gradient(to left, rgba(228, 228, 228, 0.815), rgb(215, 239, 255));
-    box-shadow: 10px 10px 10px black;
+    background-color: blue;
+    box-shadow: 1px 1px 15px black;
     width: 50px;
-    border: solid;
-    border-color: black;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 
-main{
-    background-color: rgba(255, 255, 255, 0.493);
+main{ 
+    background-image: url(../imagens/walpaper.jpg);
+    background-attachment: fixed;
     color: #000000;
     margin: auto;
     box-shadow: 1px 1px 5px #0000008a;
-    width: 330px;
+    max-width: 330px;
     margin-top: 40px;
     border: solid;
     border-radius: 8px;
@@ -31,18 +32,23 @@ main{
     white-space: nowrap;
     overflow:hidden;
     padding: 1em 2em;
-    
+    padding-top: 2em;
 }
 #imagem {
     position: initial;
-    width: 171px;
-    height: 171px;
+    max-width: 200px;
+    max-height: 200px;
     text-align: center;
     align-items: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
     border-radius: 100%;
     margin: 0 auto;
     animation: roda 180s linear infinite;
+}
+#imagem img
+{
+    height: 200px;
+    width: 200px;
 }
 
 #social{
@@ -74,9 +80,16 @@ main{
       width: 21em;
     }
   }
+@media(max-width:600px){
+    main{
+        float: right;
+    }
+}
 @media(max-width:400px){
     main{
-        width: 250px;
+        max-width: 200px;
+        max-height: 400px;
+        padding: 0;
     }
     main h1 {
         font-size: 1.3em;
