@@ -7,7 +7,6 @@ body{
     background-attachment: fixed;
 }
 #foot{
-    padding-left: 150px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
@@ -25,7 +24,6 @@ p{
 #sobre 
 {
     padding: 25px;
-    padding-left: 150px;
     margin: 0;
     box-sizing: border-box;
     height: auto;
@@ -33,7 +31,6 @@ p{
     color: black;
     background-image: url(../imagens/walpaper.jpg);
     background-attachment: fixed;
-    
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
 #imagem{
@@ -65,7 +62,6 @@ h2{
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
     padding: 1px 25px;
-    padding-left: 150px;
     max-width: 1200px;
     margin: 0 auto;
     background-image: url(../imagens/walpaper.jpg);
@@ -89,6 +85,20 @@ h2{
 {
     width: 200px;
     border: 1px solid black;
+}
+@media(min-width:601px){
+    #sobre
+    {
+        padding-left: 150px;
+    }
+    #foot
+    {
+        padding-left: 150px;
+    }
+    #frase
+    {
+        padding-left: 150px;
+    }
 }
 @media(max-width:745px)
 {

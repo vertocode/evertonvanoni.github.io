@@ -3,11 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-html
-{
-  margin-top:-39.6px;
-  background-image: url(../imagens/background.jpg);
-}
+
 
 #github:hover,#linkedin:hover,#gmail:hover,#instagram:hover,#facebook:hover,#twitter:hover,#youtube:hover,#twitch:hover{
     background-color: blue;
@@ -16,26 +12,25 @@ html
     border-radius: 50%;
 }
 
-
-main{ 
-    background-color: rgba(255, 255, 255, 0.425);
+body
+{
+    background-image: url(../imagens/background.jpg);
+}
+#all{ 
+    display: block;
+    background-color: rgba(255, 255, 255, 0.651);
     background-attachment: fixed;
     color: #000000;
     margin: auto;
     box-shadow: 1px 1px 5px #0000008a;
     max-width: 330px;
-    margin-top: 40px;
     border: solid;
     border-radius: 8px;
     text-align: center;
     animation: typing 2s normal;
-    white-space: nowrap;
-    overflow:hidden;
-    padding: 1em 2em;
-    padding-top: 2em;
+    white-space: nowrap; 
 }
 #imagem {
-    position: initial;
     max-width: 200px;
     max-height: 200px;
     text-align: center;
@@ -47,8 +42,8 @@ main{
 }
 #imagem img
 {
-    height: 200px;
-    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #social{
@@ -80,21 +75,23 @@ main{
       width: 21em;
     }
   }
-@media(max-width:600px){
-    main{
-        float: right;
+
+@media(max-width:601px){
+    #all
+    {
+        padding-top: 90px;
     }
 }
 @media(max-width:400px){
-    main{
+    #all{
         max-width: 200px;
         max-height: 400px;
         padding: 0;
     }
-    main h1 {
+    #all h1 {
         font-size: 1.3em;
     }
-    main h2{
+    #all h2{
         font-size: 0.9em;
     }
     #links{
