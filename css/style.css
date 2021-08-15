@@ -23,7 +23,7 @@ body
     height: calc(100vh - 75.6px);
     background-image: url(../imagens/background.jpg);
     background-attachment: fixed;
-    color: blue;
+    color: #daa520;
 }
 #line{
     border-right: solid 2px rgb(255, 255, 255);
