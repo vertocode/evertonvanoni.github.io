@@ -82,6 +82,7 @@ header img
     justify-content: space-between;
     background: #000000;
     overflow: visible;
+    border-bottom: 1px solid white;
   }
   #menu {
     display: block;

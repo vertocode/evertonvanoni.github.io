@@ -16,10 +16,10 @@ body
 {
     background-image: url(../imagens/background.jpg);
 }
+
 #all{ 
     display: block;
     background-image: url(../imagens/walpaper.jpg);
-    background-attachment: fixed;
     color: #000000;
     margin: auto;
     box-shadow: 1px 1px 5px #0000008a;
@@ -75,22 +75,15 @@ body
       width: 21em;
     }
   }
-
-@media(max-width:600px){
-    #all
-    {
-        padding-top: 90px;
-    }
-}
 @media(max-width:400px){
     #all h1 {
-        font-size: 1.3em;
+        font-size: 1.3em;    
     }
     #all h2{
         font-size: 0.9em;
     }
     #links{
-        padding: 2px 0px;
+        padding: 2px 3px;
     }
     #links img{
         max-width: 40px;

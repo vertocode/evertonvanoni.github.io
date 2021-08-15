@@ -41,6 +41,7 @@ footer
   text-align: center;
   font-family: var(--font-android);
   font-size: 2em;
+  background-image: url(../imagens/walpaper.jpg);
 }
 .typing-animation {
     animation: blinkCursor 750ms steps(40) infinite
@@ -93,7 +94,7 @@ footer
   {
     #home
     {
-      padding-left: none;
+      height: calc(100vh - 102px);
     }
   }
   @media(max-width:485px){

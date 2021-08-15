@@ -11,7 +11,6 @@ body{
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
     background-image: url(../imagens/walpaper.jpg);
-    background-attachment: fixed;
 }
 #foot img 
 {
@@ -23,24 +22,15 @@ p{
 }
 #sobre 
 {
-    padding: 25px;
-    margin: 0;
+    padding: 2px 20px;
     box-sizing: border-box;
     height: auto;
     width: auto;
     color: black;
     background-image: url(../imagens/walpaper.jpg);
-    background-attachment: fixed;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
-#imagem{
-    background-image: url(../imagens/perfilredondo.png);
-    float: right;
-     position:block;
-     margin: auto;
-     border-radius: 100%;
-     margin: 10px;
-}
+
 h1{
     text-decoration: underline;
     font-size: 1.25em;
@@ -55,17 +45,15 @@ h2{
     position: relative;
     text-indent: 2em;
     margin: 20px;
-    
+    padding: 0px 20px;
 } 
 #frase{
-    background-color: rgb(255, 255, 255);
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
     padding: 1px 25px;
     max-width: 1200px;
     margin: 0 auto;
     background-image: url(../imagens/walpaper.jpg);
-    background-attachment: fixed;
 }
 #certificate
 {
@@ -102,16 +90,6 @@ h2{
 }
 @media(max-width:745px)
 {
-    #imagem
-    {
-        align-items: center;
-        justify-content: center;
-        float: none;
-    }
-    #imagem img 
-    {
-        margin-left: 20vw;
-    }
     #txt
     {
         display: inline-block;
