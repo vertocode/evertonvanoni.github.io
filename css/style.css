@@ -60,7 +60,7 @@ footer
  
   @keyframes blinkCursor {
     from {
-      border-right-color: rgba(255, 255, 255, 0.75);
+      border-right-color: rgb(255, 255, 255);
     }
     to {
       border-right-color: transparent;
