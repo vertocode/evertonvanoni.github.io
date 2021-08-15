@@ -1,7 +1,6 @@
 @charset "UTF-8";
 *{
   font-family: 'Courier New', Courier, monospace;
-  transition: ease-out 0.3s;
 }
 body,
 ul {
@@ -131,6 +130,7 @@ header img
     width: 20px;
     color: white;
     animation: hamburger infinite 10000ms;
+    transition: ease 0.3s;
   }
   #hamburger::after,
   #hamburger::before {
