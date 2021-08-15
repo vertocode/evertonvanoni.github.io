@@ -63,6 +63,10 @@ footer
     }
   }
   @media(min-width:680px){
+    body
+    {
+      overflow:hidden;
+    }
     #home{
       padding-left: 120px;
       height: calc(100vh - 25px);
