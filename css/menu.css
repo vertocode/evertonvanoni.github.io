@@ -8,6 +8,15 @@ ul {
   padding: 0px;
 }
 
+h1
+{
+  color: darkorange;
+}
+h2
+{
+  color: blue;
+}
+
 a {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: none;

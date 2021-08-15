@@ -32,11 +32,12 @@ p{
 }
 
 h1{
-    text-decoration: underline;
+    color: darkorange;
     font-size: 1.25em;
     text-align: center;
 }
 h2{
+    color: blue;
     text-align: center;
     text-indent: 0px;
 }
