@@ -95,7 +95,7 @@ footer
   {
     #home
     {
-      height: calc(100vh - 102px);
+      height: calc(100vh - 90px);
     }
   }
   @media(max-width:485px){
