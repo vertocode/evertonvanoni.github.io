@@ -87,7 +87,8 @@ footer
       font-size: 25px;
     }
     footer{
-     font-size: 20px
+     font-size: 20px;
+     height: max-content;
     }
   }
   @media(max-width:600px)
