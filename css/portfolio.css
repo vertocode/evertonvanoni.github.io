@@ -22,6 +22,8 @@ h2
 .links a
 {
   color: rgb(0, 81, 255);
+  background-color: aqua;
+  cursor: pointer;
 }
 .links a:hover
 {
@@ -88,7 +90,6 @@ h2
   border-radius: 100%;
   cursor: pointer;
   color: white;
-
 }
 .blink
 {

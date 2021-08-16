@@ -41,7 +41,15 @@ function goprev4()
     }
     updateMargin4(); 
 }
-
+function goprev5()
+{
+    currentslide--;
+    if(currentslide < 0)
+    {
+        currentslide = totalslides - 1;
+    }
+    updateMargin5(); 
+}
 //Avalia para saber se o slide vai avançar ou então voltar ao inicio.
 function gonext()
 {
@@ -50,7 +58,7 @@ function gonext()
     {
         currentslide = 0;
     }
-    updateMargin();
+    updateMargin1();
 }
 function gonext2()
 {
@@ -79,28 +87,45 @@ function gonext4()
     }
     updateMargin4();
 }
-
-//Função onde faz a imagem avançar.
-function updateMargin()
+function gonext5()
 {
-    let sliderwidth = document.querySelector('.slider--item').clientWidth;
-    let newmargin = (currentslide * sliderwidth);
-    document.querySelector(".slider--width").style.marginLeft = `-${newmargin}px`
+    currentslide++;
+    if(currentslide > (totalslides - 1))
+    {
+        currentslide = 0;
+    }
+    updateMargin5();
+}
+//Função onde faz a imagem avançar.
+function updateMargin1()
+{
+    let sliderwidth1 = document.querySelector('.umitem').clientWidth;
+    let newmargin1 = (currentslide * sliderwidth1);
+    document.querySelector(".umwidth").style.marginLeft = `-${newmargin1}px`
 }
 function updateMargin2()
 {
-    let sliderwidth = document.querySelector('.doisitem').clientWidth;
-   let newmargin2 = (currentslide * sliderwidth);    document.querySelector(".doiswidth").style.marginLeft = `-${newmargin2}px`
+    let sliderwidth2 = document.querySelector('.doisitem').clientWidth;
+   let newmargin2 = (currentslide * sliderwidth2);    
+   document.querySelector(".doiswidth").style.marginLeft = `-${newmargin2}px`
 }
 function updateMargin3()
 {
-    let sliderwidth = document.querySelector('.tresitem').clientWidth;
-   let newmargin3 = (currentslide * sliderwidth);    document.querySelector(".treswidth").style.marginLeft = `-${newmargin3}px`
+    let sliderwidth3 = document.querySelector('.tresitem').clientWidth;
+   let newmargin3 = (currentslide * sliderwidth3);   
+    document.querySelector(".treswidth").style.marginLeft = `-${newmargin3}px`
 }
 function updateMargin4()
 {
-    let sliderwidth = document.querySelector('.quatroitem').clientWidth;
-   let newmargin4 = (currentslide * sliderwidth);    document.querySelector(".quatrowidth").style.marginLeft = `-${newmargin4}px`
+    let sliderwidth4 = document.querySelector('.quatroitem').clientWidth;
+   let newmargin4 = (currentslide * sliderwidth4);    
+   document.querySelector(".quatrowidth").style.marginLeft = `-${newmargin4}px`
+}
+function updateMargin5()
+{
+    let sliderwidth5 = document.querySelector('.cincoitem').clientWidth;
+   let newmargin5 = (currentslide * sliderwidth5);   
+   document.querySelector(".cincowidth").style.marginLeft = `-${newmargin5}px`
 }
 
 //Intervalos para avançar automaticamente.
@@ -108,3 +133,4 @@ setInterval(gonext, 3000)
 setInterval(gonext2, 3000)
 setInterval(gonext3, 3000)
 setInterval(gonext4, 3000)
+setInterval(gonext5, 3000)
