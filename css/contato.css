@@ -36,12 +36,13 @@ body
     text-align: center;
     align-items: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
-    border-radius: 100%;
     margin: 0 auto;
     animation: roda 240s linear infinite;
+     border-radius:50%;
 }
 #imagem img
 {
+    border-radius:50%;
     max-width: 200px;
     max-height: 200px;
 }
