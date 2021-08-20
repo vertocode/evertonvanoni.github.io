@@ -30,7 +30,16 @@ p{
     background-image: url(../imagens/walpaper.jpg);
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.199);
 }
-
+#sobre img
+{
+    border: 2px solid rgb(0, 140, 255);
+    width: 200px;
+    float: right;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.425);
+}
 h1{
     color: darkorange;
     font-size: 1.25em;
@@ -43,7 +52,6 @@ h2{
 }
 #txt{
     text-align: justify;
-    position: relative;
     text-indent: 2em;
     margin: 20px;
     padding: 0px 20px;
@@ -91,9 +99,13 @@ h2{
 }
 @media(max-width:745px)
 {
+    #sobre img
+    {
+        float: none;
+        margin-left: 30%;
+    }
     #txt
     {
-        display: inline-block;
         align-items: center;
         justify-content: center;
     }
