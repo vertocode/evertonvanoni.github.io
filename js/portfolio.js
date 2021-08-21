@@ -50,6 +50,15 @@ function goprev5()
     }
     updateMargin5(); 
 }
+function goprev6()
+{
+    currentslide--;
+    if(currentslide < 0)
+    {
+        currentslide = totalslides - 1;
+    }
+    updateMargin6(); 
+}
 //Avalia para saber se o slide vai avançar ou então voltar ao inicio.
 function gonext()
 {
@@ -96,6 +105,15 @@ function gonext5()
     }
     updateMargin5();
 }
+function gonext6()
+{
+    currentslide++;
+    if(currentslide > (totalslides - 1))
+    {
+        currentslide = 0;
+    }
+    updateMargin6();
+}
 //Função onde faz a imagem avançar.
 function updateMargin1()
 {
@@ -127,10 +145,17 @@ function updateMargin5()
    let newmargin5 = (currentslide * sliderwidth5);   
    document.querySelector(".cincowidth").style.marginLeft = `-${newmargin5}px`
 }
+function updateMargin6()
+{
+    let sliderwidth6 = document.querySelector('.seisitem').clientWidth;
+   let newmargin6 = (currentslide * sliderwidth6);   
+   document.querySelector(".seiswidth").style.marginLeft = `-${newmargin6}px`
+}
 
 //Intervalos para avançar automaticamente.
-setInterval(gonext, 3000)
-setInterval(gonext2, 3000)
-setInterval(gonext3, 3000)
-setInterval(gonext4, 3000)
-setInterval(gonext5, 3000)
+setInterval(gonext, 5000)
+setInterval(gonext2, 5000)
+setInterval(gonext3, 5000)
+setInterval(gonext4, 5000)
+setInterval(gonext5, 5000)
+setInterval(gonext6, 5000)

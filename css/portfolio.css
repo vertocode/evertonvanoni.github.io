@@ -79,9 +79,8 @@ h2
 }
 .slider img
 {
-  width: 100vw;
-  height: 100vh;
-
+  width: 100%;
+  height: 100%;
 }
 .slider--controls
 {
@@ -130,6 +129,9 @@ h2
   box-shadow: 1px 1px 15px black;
   border-radius: 50%;
   cursor: pointer;
+}
+.itens img {
+  background-size:cover;
 }
 @keyframes typing2 
 {
