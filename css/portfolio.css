@@ -102,6 +102,7 @@ h2
   border-radius: 100%;
   cursor: pointer;
   color: white;
+  overflow: hidden;
 }
 .site a
 {
