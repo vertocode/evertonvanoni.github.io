@@ -6,7 +6,7 @@
 
 
 #github:hover,#linkedin:hover,#gmail:hover,#instagram:hover,#facebook:hover,#twitter:hover,#youtube:hover,#twitch:hover{
-    background-color: blue;
+    background-color: lightblue;
     box-shadow: 1px 1px 15px black;
     width: 50px;
     border-radius: 50%;

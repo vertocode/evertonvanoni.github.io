@@ -25,6 +25,9 @@ body
     background-attachment: fixed;
     color: #daa520;
 }
+#home h1 {
+  color: white;
+}
 #line{
     border-right: solid 2px rgb(255, 255, 255);
     font-family: monospace;
@@ -35,11 +38,14 @@ body
 }
 footer
 {
+  background-color: black;
+  color: white;
   width: 100%;
   text-align: center;
   font-family: var(--font-android);
   font-size: 2em;
-  background-image: url(../imagens/walpaper.jpg);
+  border: solid  1px white;
+  border-style: dashed;
 }
 .typing-animation {
     animation: blinkCursor 750ms steps(40) infinite

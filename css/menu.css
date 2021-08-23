@@ -10,7 +10,7 @@ ul {
 
 h1
 {
-  color: #daa520;
+  color: #08183d;
 }
 h2
 {
@@ -25,10 +25,10 @@ a {
 }
 
 header a:hover {
-  background-color: blue;
+  background-color: #08183d;
   color: rgb(255, 255, 255);
   font-size: 18px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 header img
 {
