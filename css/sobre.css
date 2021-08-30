@@ -66,9 +66,15 @@ h2{
 }
 #certificate
 {
+    background-image: url(../imagens/walpaper.jpg);
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.certificate
+{
     display: flex;
 }
-#certificate p
+.certificate p
 {
     text-align: justify;
     margin-left: 5px;
@@ -77,10 +83,12 @@ h2{
     margin: 20px;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.425);
+    height: max-content;
 }
 #certificate img
 {
-    width: 200px;
+    width: 150px;
+    height: 120px;
     border: 1px solid black;
 }
 @media(min-width:600px){
@@ -96,6 +104,14 @@ h2{
     {
         padding-left: 150px;
     }
+    #certificate
+    {
+        padding-left: 150px;
+    }
+    #certificate img 
+    {
+        margin-top: 20px;
+    }
 }
 @media(max-width:745px)
 {
@@ -109,11 +125,14 @@ h2{
         align-items: center;
         justify-content: center;
     }
-    #certificate
+    .certificate
     {
         display: contents;
     }
+    #certificate img{
+        margin-left: 30%;
+    }
 }
-    
+
     
    
