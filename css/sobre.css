@@ -70,6 +70,17 @@ h2{
     padding: 20px 0px;
     margin: 20px 0px;
 }
+#certificate input
+{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#certificate input:hover
+{
+    background-color: #08183d;
+    color: white;
+}
 .certificate
 {
     display: flex;
